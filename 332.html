@@ -59,9 +59,9 @@ ctx.stroke();
 x=Number(document.getElementById("x_znach").value); 
 y=Number(document.getElementById("y_znach").value); 
 if (x <= -2 && y>=1) {
-document.getElementById("otvet").innerHTML = "Точка в области";
+document.getElementById("otvet").innerHTML = "Г’Г®Г·ГЄГ  Гў Г®ГЎГ«Г Г±ГІГЁ";
 } else {
-document.getElementById("otvet").innerHTML = "Точка не в области"; 
+document.getElementById("otvet").innerHTML = "Г’Г®Г·ГЄГ  Г­ГҐ Гў Г®ГЎГ«Г Г±ГІГЁ"; 
 }
 } 
 function er2(){ 
@@ -107,11 +107,11 @@ ctx.stroke();
 <body> 
 x=<input type="text" value="0" id="x_znach"> 
 y=<input type="text" value="0" id="y_znach"> 
-<a href="#" onclick="clean()" class="button purple">Очистить</a> 
-<a href="#" onclick="er1()" class="button purple">3.31а</a> 
-<a href="#" onclick="er2()" class="button purple">3.31б</a> 
+<a href="#" onclick="clean()" class="button purple">Clear</a> 
+<a href="#" onclick="er1()" class="button purple">Р°</a> 
+<a href="#" onclick="er2()" class="button purple">Р±</a> 
 <br> 
-<canvas width='640' height='480' id='example'>Обновите браузер</canvas> 
+<canvas width='640' height='480' id='example'></canvas> 
 <br> 
 
 <div id="otvet"></div>
